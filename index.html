@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <title>DSWF PFO 3 - Pamela Gómez</title>
+</head>
+<body>
+    <div id="ejerciciosContainer">
+        <h1>PFO3 - EJERCICIOS</h1>
+
+        <h2>1. Calcular el área de un rectángulo</h2>
+        <form id="areaForm">
+            <div class="inputsRectangulo">
+                <label for="longitud">Longitud:</label>
+                <input type="number" id="longitud" placeholder="3" required>
+                <label for="ancho">Ancho:</label>
+                <input type="number" id="ancho" placeholder="5" required>
+            </div>
+            <button type="submit">Calcular Área</button>
+        </form>
+        <div id="resultadoArea" class="resultado"></div>
+    
+        <h2>2. Contar palabras en una cadena</h2>
+        <form id="cadenaForm">
+            <label for="cadena">Escriba una palabra o una oración:</label>
+            <input type="text" id="cadena" placeholder="Escriba algo aquí" required>
+            <button type="submit">Contar Palabras</button>
+        </form>
+        <div id="resultadoPalabras" class="resultado"></div>
+
+        <h2>3. Invertir una cadena</h2>
+        <form id="cadenaInvertidaForm">
+            <label for="cadena">Escriba una palabra o una oración:</label>
+            <input type="text" id="cadenaInvertida" placeholder="Escriba algo aquí" required>
+            <button type="submit">Invertir Cadena</button>
+        </form>
+        <div id="resultadoPalabrasInvertidas" class="resultado"></div>    
+
+        <h2>4. Palíndromo</h2>
+        <form id="palindromoForm">
+            <label for="cadena">Escriba una palabra o una oración:</label>
+            <input type="text" id="cadenaPalindromo" placeholder="Escriba algo aquí" required>
+            <button type="submit">¿Es Palíndromo?</button>
+        </form>
+        <div id="resultadoPalindromo" class="resultado"></div>  
+        
+        <!-- <h2>5. Convertir la edad de un perro a años humanos</h2>
+        <form id="aniosPerrunosForm">
+            <label for="edadPerro">Ingrese la edad del perro:</label>
+            <input type="number" id="aniosPerro" placeholder="2" required>
+            <button type="submit">Calcular Edad Humana</button>
+        </form>
+        <div id="resultadoEdadPerro" class="resultado"></div> -->
+
+        <h2>5. Convertir la edad de un perro a años humanos</h2>
+            <button id="calcularEdadBtn">Calcular Edad Humana</button>
+    </div> 
+
+    <script src="main.js"></script>
+</body>
+</html>

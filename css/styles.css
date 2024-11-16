@@ -1,0 +1,83 @@
+/*Variables a reutilizar*/
+:root {
+    /*Colores*/
+    --color-button-main: #4caf50;
+    --color-btn-hover: #af4c91;
+    --color-background: #f7f7f7;
+
+	/* Tipografías */
+	--font-title: 'Mulish', sans-serif;
+	--font-body: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    font-family: var(--font-title);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-body);
+    padding: 20px;
+}
+
+#ejerciciosContainer {
+    width: 90%;
+    max-width: 600px;
+    background-color: var(--color-background);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.inputsRectangulo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#areaForm {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#longitud, #ancho {
+    width: 70px;
+    margin-bottom: 0;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: var(--color-button-main);
+    font-family: var(--font-body);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-btn-hover);
+}
+
+.resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
