@@ -101,30 +101,6 @@ document.getElementById("palindromoForm").addEventListener("submit", function(ev
     }
 });
 
-// /*///////////////// EJERCICIO 5 - CONVERTIR LA EDAD DE UN PERRO A AÑOS HUMANOS //////////////////*/
-// //Función
-// function edadCanina(edadPerro) {
-//     return edadPerro * 7;
-// }
-
-// //Formulario
-// document.getElementById("aniosPerrunosForm").addEventListener("submit",function(event) {
-//     event.preventDefault();
-
-//     //Obtener la edad del input
-//     const aniosPerro = document.getElementById("aniosPerro").value;
-
-//     //Validar el input
-//     if (isNaN(aniosPerro) || aniosPerro <= 0) {
-//         document.getElementById("resultadoEdadPerro").textContent = "Por favor, ingrese valores válidos y mayores a cero.";
-//         return;
-//     }
-
-//     //Calcular la edad y mostrar el resultado
-//     const edadHumana = edadCanina(aniosPerro);
-//     document.getElementById("resultadoEdadPerro").innerHTML = `Tu perro tiene ${edadHumana} años humanos &#128021`;
-// })
-
 /*///////////////// EJERCICIO 5 - CONVERTIR LA EDAD DE UN PERRO A AÑOS HUMANOS //////////////////*/
 //Función
 function edadCanina() {
