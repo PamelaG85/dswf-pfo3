@@ -9,12 +9,12 @@ document.getElementById("areaForm").addEventListener("submit", function (event) 
     event.preventDefault(); // Para evitar que se recargue la página
 
     // Obtener los valores de los inputs
-    const longitud = document.getElementById("longitud").value;
-    const ancho = document.getElementById("ancho").value;
+    const longitud = parseFloat(document.getElementById("longitud").value);
+    const ancho = parseFloat(document.getElementById("ancho").value);
 
     // Validar los valores
     if (isNaN(longitud) || isNaN(ancho) || longitud <= 0 || ancho <= 0) {
-        document.getElementById("resultadoArea").textContent = "Por favor, ingrese valores válidos y mayores a cero.";
+        document.getElementById("resultadoArea").textContent = "Por favor, ingrese valores numéricos válidos y mayores a cero.";
         return;
     }
 
@@ -163,7 +163,7 @@ function edadCanina() {
 
     //Validar el input
     if (isNaN(edadCanina) || edadCanina <= 0) {
-        alert("Por favor, ingrese valores válidos y mayores a cero.");
+        alert("Por favor, ingrese valores numéricos válidos y mayores a cero.");
         return;
     }
 
