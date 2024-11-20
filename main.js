@@ -26,9 +26,9 @@ document.getElementById("areaForm").addEventListener("submit", function (event) 
 // Mostrar resultados por consola
 console.log("EJERCICIO 1: CALCULAR EL ÁREA DE UN RECTÁNGULO");
 console.log("=========================================================");
-console.log("Solución 1: " + calcularAreaRectangulo(5, 3)); //Resultado: 15
-console.log("Solución 2: " + calcularAreaRectangulo(8, 4)); //Resuldato: 32
-console.log("Solución 3: " + calcularAreaRectangulo(2, 7)); //Resuldato: 14
+console.log("Solución 1: Área rectángulo: " + calcularAreaRectangulo(5, 3)); //Resultado: 15
+console.log("Solución 2: Área rectángulo: " + calcularAreaRectangulo(8, 4)); //Resuldato: 32
+console.log("Solución 3: Área rectángulo: " + calcularAreaRectangulo(2, 7)); //Resuldato: 14
 console.log("/////////////////////////////////////////////////////////");
 console.log("");
 
@@ -73,9 +73,9 @@ document.getElementById("cadenaForm").addEventListener("submit", function(event)
 // Mostrar resultados por consola
 console.log("EJERCICIO 2: CONTAR PALABRAS EN UNA CADENA");
 console.log("=========================================================");
-console.log("Solución 1: " + contarPalabras("Probando si funciona")); //Resultado: 3
-console.log("Solución 2: " + contarPalabras("Mi gato color naranja se llama Naranjo")); //Resultado: 7
-console.log("Solución 3: " + contarPalabras("Felíz primavera")); //Resultado: 2
+console.log("Solución 1: Cantidad de palabras: " + contarPalabras("Probando si funciona")); //Resultado: 3
+console.log("Solución 2: Cantidad de palabras: " + contarPalabras("Mi gato color naranja se llama Naranjo")); //Resultado: 7
+console.log("Solución 3: Cantidad de palabras: " + contarPalabras("Felíz primavera")); //Resultado: 2
 console.log("////////////////////////////////////////////////////////");
 console.log("");
 
@@ -116,9 +116,9 @@ document.getElementById("cadenaInvertidaForm").addEventListener("submit", functi
 // Mostrar resultados por consola
 console.log("EJERCICIO 3: INVERTIR UNA CADENA");
 console.log("=========================================================");
-console.log("Solución 1: " + invertirCadena("Probando si funciona")); //Resultado: anoicnuf is odnaborP
-console.log("Solución 2: " + invertirCadena("Noviembre")); //Resultado: erbmeivoN
-console.log("Solución 3: " + invertirCadena("Hola")); //Resultado: aloH
+console.log("Solución 1: Cadena invertida: " + invertirCadena("Probando si funciona")); //Resultado: anoicnuf is odnaborP
+console.log("Solución 2: Cadena invertida: " + invertirCadena("Noviembre")); //Resultado: erbmeivoN
+console.log("Solución 3: Cadena invertida: " + invertirCadena("Hola")); //Resultado: aloH
 console.log("/////////////////////////////////////////////////////////");
 console.log("");
 
@@ -166,9 +166,9 @@ document.getElementById("palindromoForm").addEventListener("submit", function(ev
 // Mostrar resultados por consola
 console.log("EJERCICIO 4: ENCONTRAR EL PALÍNDROMO");
 console.log("=========================================================");
-console.log("Solución 1: " + esPalindromo("Neuquen")); //Resultado: true
-console.log("Solución 2: " + esPalindromo("Somos o no somos")); //Resultado: true
-console.log("Solución 3: " + esPalindromo("Hola")); //Resultado: false
+console.log("Solución 1: ¿Es palíndromo? " + esPalindromo("Neuquen")); //Resultado: true
+console.log("Solución 2: ¿Es palíndromo? " + esPalindromo("Somos o no somos")); //Resultado: true
+console.log("Solución 3: ¿Es palíndromo? " + esPalindromo("Hola")); //Resultado: false
 console.log("/////////////////////////////////////////////////////////");
 console.log("");
 
