@@ -10,8 +10,9 @@
 	--font-body: 'Lato', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--font-title);
+    margin: 5px;
 }
 
 body {
@@ -22,13 +23,26 @@ body {
     padding: 20px;
 }
 
-#ejerciciosContainer {
+#mainContainer {
     width: 90%;
-    max-width: 600px;
+    max-width: 650px;
     background-color: var(--color-background);
     padding: 40px;
     border-radius: 8px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#titulosContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid var(--color-button-main);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#ejerciciosContainer {
+    margin-top: 50px;
 }
 
 form {
